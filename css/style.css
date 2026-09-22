@@ -9,3 +9,27 @@ h3 {
     font-size: 25px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+ol {
+    font-size: 20px;
+}
+ul {
+    font-size: 20px;
+}
+.prelist {
+    font-size: 20px;
+}
+.paragraph {
+    font-size: 18px;
+}
+#link1 {
+    font-size: 20px;
+    text-align: center;
+}
+#link2 {
+    font-size: 20px;
+    text-align: center;
+}
