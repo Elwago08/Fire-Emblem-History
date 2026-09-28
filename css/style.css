@@ -17,24 +17,24 @@ h1 {
 }
 /*both lists needed to be upscaled to look better*/
 ol {
-    font-size: 20px;
+    font-size: 24px;
 }
 ul {
-    font-size: 20px;
+    font-size: 24px;
 }
 /*wanted the text in these sections to have a bit more size diversity*/
 .prelist {
-    font-size: 20px;
+    font-size: 24px;
 }
 .paragraph {
-    font-size: 18px;
+    font-size: 22px;
 }
 #link1 {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 #link2 {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 /* created a flexbox to make it a bit more vertical and nicer to look at */
@@ -43,4 +43,25 @@ ul {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+}
+
+@media (max-width: 600px) {
+    ol{
+        font-size: 20px;
+    }
+    ul{
+        font-size: 20px;
+    }
+    .prelist {
+        font-size: 20px;
+    }
+    .paragraph {
+        font-size: 20px;
+    }
+    #link1 {
+        font-size: 20px;
+    }
+    #link2 {
+        font-size: 20px;
+    }
 }
