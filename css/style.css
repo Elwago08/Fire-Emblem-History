@@ -22,6 +22,9 @@ ol {
 ul {
     font-size: 24px;
 }
+a {
+    color:rgb(225, 225, 225);
+}
 /*wanted the text in these sections to have a bit more size diversity*/
 .prelist {
     font-size: 24px;
@@ -44,7 +47,7 @@ ul {
     gap: 10px;
     justify-content: center;
 }
-
+/* media query that shrinks the font sizes for smaller screens */
 @media (max-width: 600px) {
     ol{
         font-size: 20px;
