@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link=
+        <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -12,51 +12,57 @@
    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
 </head>
 <body>
-    <header id="page-header">
-        <!-- The main title of the page, tells the purpose of the webpage as well as showing the franchise logo and an outline of the article. -->
-        <img src="./images/Fire_Emblem_logo.svg.webp" alt="An image of the Fire Emblem Logo, as it has been seen since Fire Emblem: Awakening"
-            width=50% />
-        <h1>A Brief History of the Fire Emblem Series</h1>
-        <p class="prelist">This page will talk about how the gaming series started, how it almost died, and where it is today, split into 3 main sections:</p>
-        <ol id="list1">
-            <li>The Beginning</li>
-            <li>Expansion and Crisis</li>
-            <li>Revival</li>
-        </ol>
-    </header>
-    <main id ="first_page_content">
-        <article id="opening_paragraphs">
-            <section id="the-beginning">
-                <!-- This part talks about the history of the series for about the first 10 years of it's existance -->
-                <h2>The Beginning</h2>
-                <p class="paragraph">The series started as a passion project by Shouzou Kaga, who was a developer at Nintendo at the time.
-             The first game, Shadow Dragon and the Blade of Light, ended up selling better than expected, which led to him becoming director of the new series.
-            Kaga would then go on to keep working on the series for roughly the next decade.</p>
-                <!-- This shows a list of the 5 Fire Emblem games that were developed by Shouzou Kaga-->
-                <p class="prelist">Shouzou Kaga ended up on working the first 5 games of the series before leaving Nintendo, those games being:</p>
-                    <ul id="list2">
-                        <li>Fire Emblem: Shadow Dragon and the Blade of Light</li>
-                        <li>Fire Emblem: Gaiden</li>
-                        <li>Fire Emblem: Mystery of the Emblem</li>
-                        <li>Fire Emblem: Genealogy of the Holy War</li>
-                        <li>Fire Emblem: Thracia 776</li>
-                    </ul>
-            </section>
-            <section id="expansion-and-crisis">
-                 <!-- This part explains the series history from roughly 2000 t0 2012-->
-                <h2> Expansion and Crisis</h2>
-                <p class="paragraph">With Kaga gone, Nintendo had to figure out how to keep making these games. There was an attempt to make one on the Nintendo 64, but it never ended up being finished.
-                Eventually, they were able to restablish the series and continue it's growing popularity. The series how now become so popular that Nintendo finally decided to release the series outside of Japan.
-                The first game to be released internationally was Fire Emblem: The Blazing Blade, or more often called "Fire Emblem." 
-                The series didn't struggle to capture international audiences at first, but the love of the series started to fade.
-                Sales were going down, and Nintendo had told Intelligent Systems, the main development studio behind the series, that the next game had to sell over 250,000 units, or the series would be cut.
-                </p>
-            </section>
-        </article>
-        <footer id="link1">
-            <!-- A link to the second page, where the story will be finished-->
-            <a href="page2.html">Read more on the second page</a>
-        </footer>
-    </main>
+    <div class="container mt-4">
+        <header id="page-header" class="text-center mb-5">
+            <!-- The main title of the page, tells the purpose of the webpage as well as showing the franchise logo and an outline of the article. -->
+            <img src="./images/Fire_Emblem_logo.svg.webp" alt="An image of the Fire Emblem Logo, as it has been seen since Fire Emblem: Awakening"
+                width=30% />
+            <h1>A Brief History of the Fire Emblem Series</h1>
+            <p class="prelist" class="lead">This page will talk about how the gaming series started, how it almost died, and where it is today, split into 3 main sections:</p>
+            <ol id="list1">
+                <li>The Beginning</li>
+                <li>Expansion and Crisis</li>
+                <li>Revival</li>
+            </ol>
+        </header>
+        <main id ="first_page_content">
+            <article id="opening_paragraphs">
+                <div class="row">                
+                    <section class="col-md-6 mb-4" id="the-beginning">
+                        <!-- This part talks about the history of the series for about the first 10 years of it's existance -->
+                        <h2>The Beginning</h2>
+                        <p class="paragraph">The series started as a passion project by Shouzou Kaga, who was a developer at Nintendo at the time.
+                        The first game, Shadow Dragon and the Blade of Light, ended up selling better than expected, which led to him becoming director of the new series.
+                        Kaga would then go on to keep working on the series for roughly the next decade.</p>
+                        <!-- This shows a list of the 5 Fire Emblem games that were developed by Shouzou Kaga-->
+                    </section>
+                    <section class="col-md-6 mb-4">
+                        <p class="prelist">Shouzou Kaga ended up on working the first 5 games of the series before leaving Nintendo, those games being:</p>
+                            <ul id="list2">
+                                <li>Fire Emblem: Shadow Dragon and the Blade of Light</li>
+                                <li>Fire Emblem: Gaiden</li>
+                                <li>Fire Emblem: Mystery of the Emblem</li>
+                                <li>Fire Emblem: Genealogy of the Holy War</li>
+                                <li>Fire Emblem: Thracia 776</li>
+                            </ul>
+                    </section>
+                </div>
+                    <section id="expansion-and-crisis">
+                        <!-- This part explains the series history from roughly 2000 t0 2012-->
+                        <h2> Expansion and Crisis</h2>
+                        <p class="paragraph">With Kaga gone, Nintendo had to figure out how to keep making these games. There was an attempt to make one on the Nintendo 64, but it never ended up being finished.
+                        Eventually, they were able to restablish the series and continue it's growing popularity. The series how now become so popular that Nintendo finally decided to release the series outside of Japan.
+                        The first game to be released internationally was Fire Emblem: The Blazing Blade, or more often called "Fire Emblem." 
+                        The series didn't struggle to capture international audiences at first, but the love of the series started to fade.
+                        Sales were going down, and Nintendo had told Intelligent Systems, the main development studio behind the series, that the next game had to sell over 250,000 units, or the series would be cut.
+                        </p>
+                    </section>
+             </article>
+            <footer id="link1" class="text-center">
+                <!-- A link to the second page, where the story will be finished-->
+                <a href="page2.html" class="btn btn-primary">Read more on the second page</a>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
