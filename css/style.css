@@ -8,44 +8,25 @@ body {
 /* I wanted to make sure the headers were all centered and looked big enough */
 h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
-    text-align: center;
     font-size: 35px;
 }
 /*both lists needed to be upscaled to look better*/
 ol {
-    font-size: 24px;
+    font-size: 20px;
 }
 ul {
-    font-size: 24px;
-}
-a {
-    color:rgb(0, 0, 0);
+    font-size: 20px;
 }
 /*wanted the text in these sections to have a bit more size diversity*/
 .prelist {
-    font-size: 24px;
+    font-size: 22px;
 }
 .paragraph {
     font-size: 22px;
-}
-#link1 {
-    font-size: 24px;
-    text-align: center;
-}
-#link2 {
-    font-size: 24px;
-    text-align: center;
-}
-/* created a flexbox to make it a bit more vertical and nicer to look at */
-#the-beginning {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
 }
 /* media query that shrinks the font sizes for smaller screens */
 @media (max-width: 600px) {
